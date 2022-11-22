@@ -1,43 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777;
+}
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
-ul {
+.nav ul {
     margin: 0;
 }
 
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+
+.main-nav {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
 .main-header {
+    background-color: rgba(0, 0, 0, .6);
     background-image: url("Images/Render.jpg");
+    background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 50px;
 }
 
-.titleBlock {
-    /* This is a comment */
-    width:80vw;
-    /*background:red;*/
-    margin-left: 10vw;
-    line-height: 1px;
-    margin-top:50px;
-}
 
 h1, h2 {
     color:white;
     width:80vw;
     /*background:red;*/
-    margin-left: 10vw;
-    line-height: 1px;
+    position: relative;
+    margin-left: 5vw;
+    line-height: .5px;
     margin-top:50px;
 }
 
 h2 {
     font-size: 20px;
+    margin-top: 0px;
 }
 
-.canvas{
-    height:80vh;
-    width:80vw;
-    background:yellow;
-    margin-left:10vw;
+.paragraph {
+    font-size: 20px;
+    margin-left: 2.5em;
 }

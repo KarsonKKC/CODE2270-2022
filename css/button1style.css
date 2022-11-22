@@ -1,25 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777;
+}
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
-ul {
+.nav ul {
     margin: 0;
 }
 
-.main-header {
-    background-image: url("Images/Render.jpg");
-    background-size: cover;
-    padding-bottom: 50px;
+.nav li {
+    display: inline;
 }
 
-.titleBlock {
-    /* This is a comment */
-    width:80vw;
-    /*background:red;*/
-    margin-left: 10vw;
-    line-height: 1px;
-    margin-top:50px;
+.nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Render.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 50px;
 }
 
 h1, h2 {
@@ -27,7 +39,7 @@ h1, h2 {
     width:80vw;
     /*background:red;*/
     margin-left: 10vw;
-    line-height: 1px;
+    line-height: .5px;
     margin-top:50px;
 }
 

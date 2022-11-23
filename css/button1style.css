@@ -75,7 +75,6 @@ h2 {
     overflow-y: auto;
     justify-content: space-evenly;
     text-align: center;
-
 }
 
 .button-container > a {
@@ -102,6 +101,13 @@ h2 {
 }
 
 .windows:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}
+
+.beams:hover {
     transition: ease-out 0.3s;
     box-shadow: inset 20em 0 0 0 #777;
     cursor: pointer;

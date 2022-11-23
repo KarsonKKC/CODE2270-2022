@@ -67,6 +67,10 @@ h2 {
 }
 
 .paragraph {
-    font-size: 20px;
-    margin-left: 2.5em;
+    margin-left: 5em;
+}
+
+p {
+    position: relative; 
+    font-size: 30px;
 }

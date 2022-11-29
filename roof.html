@@ -7,7 +7,7 @@
                 name="viewport"
                 content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
         />
-        <link type="text/css" rel="stylesheet" href="css/windowmodel.css" />
+        <link type="text/css" rel="stylesheet" href="css/roof.css" />
       </head>
 <body>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1223.0.js"></script>
@@ -29,7 +29,7 @@
             <li><a href="models.html">Return</a></li>
         </u1>
     </nav>
-    <h1>Window IFC Model</h1><br>
+    <h1>Roof IFC Model</h1><br>
 </header>
 
 <body>
@@ -83,7 +83,7 @@
     //Setup IFC Loader
     const ifcLoader = new IFCLoader();
     ifcLoader.ifcManager.setWasmPath( './model/' );
-    ifcLoader.load( 'model/windows.ifc', function ( model ) {
+    ifcLoader.load( 'model/roof.ifc', function ( model ) {
 
       scene.add( model.mesh );
       render();

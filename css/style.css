@@ -74,3 +74,10 @@ p {
     position: relative; 
     font-size: 30px;
 }
+
+.house-render {
+    padding-top: 10px;
+    margin-left: 5em;
+    float: left;
+    padding-bottom: 50px;
+}

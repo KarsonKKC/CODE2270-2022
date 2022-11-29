@@ -113,3 +113,38 @@ h2 {
     cursor: pointer;
     color: #000;
 }
+
+.floors:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}
+
+.roof:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}
+
+.carportroof:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}
+
+.walls:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}
+
+.sunanalysis:hover {
+    transition: ease-out 0.3s;
+    box-shadow: inset 20em 0 0 0 #777;
+    cursor: pointer;
+    color: #000;
+}

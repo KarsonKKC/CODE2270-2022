@@ -10,6 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
+
 }
 
 .nav ul {
@@ -65,86 +66,54 @@ h2 {
 }
 
 .button-container {
+    background-image: url("Images/googlehouseimage.jpg");
+    background-size: fill;
+    padding-bottom: 50px;
     padding-left: 10em;
     padding-right: 10em;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: white;
     overflow-y: auto;
     justify-content: space-evenly;
     text-align: center;
 }
 
 .button-container > a {
+    color: white;
     position: relative;
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     float: left;
-    background: lightgray;   
+    background: none;   
     margin: 2em;
+    border: white 0.325em solid;
+    text-decoration: none;
+    transition: ease-out 0.3s;
 }
 
-.house:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
+.button-container >a :hover {
     cursor: pointer;
-    color: #000;
+    color: black;
 }
 
-.doors:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
+.button-container> a:before {
+    transition: 0.5s all ease;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgb(255, 255, 255);
 }
 
-.windows:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.beams:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.floors:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.roof:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.carportroof:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.walls:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.sunanalysis:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
+.button-container> a:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    z-index: 1;
 }

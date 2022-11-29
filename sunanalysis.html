@@ -32,6 +32,10 @@
     <h1>Sun Analysis Model</h1><br>
 </header>
 
+<section>
+  <img class="house-render" src="sunanalysis.png">
+</section>
+
 <body>
 
 <!-- Import maps polyfill -->
@@ -60,13 +64,17 @@
 
     //Scene
     scene = new THREE.Scene();
-    scene.background = new THREE.Color( 0xffffff );
+    const loader = new THREE.TextureLoader();
+    loader.load('emptybackground.png' , function(texture)
+            {
+              scene.background = texture;  
+            });
 
     //Camera
-    camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
-    camera.position.z = 35;
-    camera.position.y = 30;
-    camera.position.x = 30;
+    camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    camera.position.z = 45;
+    camera.position.y = 15;
+    camera.position.x = -55;
 
     //Lights
     const directionalLight1 = new THREE.DirectionalLight( 0xff0000, 0.8 );

@@ -60,56 +60,14 @@ h1, h2 {
     margin-top:50px;
 }
 
-h2 {
-    font-size: 20px;
-}
-
-.button-container {
+section {
+    background-image: url("Images/costimage.png");
+    background-size: cover;
+    padding-bottom: 50px;
     padding-left: 10em;
     padding-right: 10em;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: white;
-    overflow-y: auto;
-    justify-content: space-evenly;
-    text-align: center;
 }
 
-.button-container > a {
-    position: relative;
-    width: 20em;
-    height: 20em;
-    float: left;
-    background: lightgray;   
-    margin: 2em;
-}
-
-.house:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.doors:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.windows:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
-}
-
-.beams:hover {
-    transition: ease-out 0.3s;
-    box-shadow: inset 20em 0 0 0 #777;
-    cursor: pointer;
-    color: #000;
+p1 {
+    padding-right: 50em;
 }

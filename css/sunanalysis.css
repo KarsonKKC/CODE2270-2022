@@ -62,7 +62,7 @@ h1, h2 {
 
 body {
     margin: 0;
-	background-color: #000;
+	background-color: rgb(255, 255, 255);
 	color: #fff;
 	font-family: Monospace;
 	font-size: 13px;
@@ -150,4 +150,10 @@ a, button, input, select {
 	background-color: #f00;
 	margin-top: 20px;
 	padding: 10px;
+}
+
+.house-render {
+	box-sizing: border-box;
+	border-radius: 15px;
+	padding-left: 15rem;
 }

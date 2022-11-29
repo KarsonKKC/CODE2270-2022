@@ -66,8 +66,22 @@ section {
     padding-bottom: 50px;
     padding-left: 10em;
     padding-right: 10em;
+    padding-top: 1em;
 }
 
 p1 {
-    padding-right: 50em;
+    padding-right: 29em;
+}
+
+p1, p2 {
+    font-size: 25px;
+    color: white;
+}
+
+.quantitytakeoff {
+    padding-right: 5em;
+}
+
+.sqreport {
+    padding-top: 10px;
 }

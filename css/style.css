@@ -68,6 +68,7 @@ h2 {
 
 .paragraph {
     margin-left: 5em;
+    padding-bottom: 2%;
 }
 
 p {
@@ -80,4 +81,6 @@ p {
     margin-left: 5em;
     float: left;
     padding-bottom: 50px;
+    border-radius: 60%;
 }
+
